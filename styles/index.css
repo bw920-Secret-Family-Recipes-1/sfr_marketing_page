@@ -22,6 +22,7 @@ nav {
 	display: flex;
 }
 
+/* header area */
 .logo-container {
 	margin: 3vh 0 3vh 2vw;
 	width: 20%;
@@ -78,6 +79,7 @@ nav {
 	color: #fff;
 }
 
+/* hero area */
 .main-cta {
 	height: 50vh;
 	display: flex;
@@ -88,7 +90,7 @@ nav {
 
 .main-cta h1 {
 	color: #fff;
-	font-size: 5rem;
+	font-size: 6.5rem;
 	font-family: 'Assistant', sans-serif;
 }
 
@@ -122,6 +124,45 @@ nav {
 	background: #18192557;
 }
 
+/* Features Area */
+
+.features {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feature {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 33%;
+	margin: 12rem;
+}
+
+.img-container {
+	width: 100%;
+	box-shadow: 5px 10px 8px #18192583;
+}
+
+.feature img {
+	width: 100%;
+	height: 100%;
+}
+
+.feature h2 {
+	margin-top: 5vh;
+	font-size: 3rem;
+	font-family: 'Assistant', sans-serif;
+}
+
+.feature p {
+	margin-top: 2vh;
+	font-size: 2rem;
+	text-align: center;
+}
+
+/* footer */
 .nav-links-footer {
 	display: flex;
 	justify-content: center;
