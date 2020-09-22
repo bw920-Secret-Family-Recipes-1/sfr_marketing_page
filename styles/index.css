@@ -15,6 +15,7 @@ h2,
 p {
 	text-decoration: none;
 	color: #181925;
+	font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -28,7 +29,8 @@ nav {
 
 .logo-container h2 {
 	font-size: 3rem;
-	color: #ff9633;
+	color: #fff;
+	font-family: 'Assistant', sans-serif;
 }
 
 .nav-links {
@@ -43,6 +45,12 @@ nav {
 .interactions a {
 	font-size: 2rem;
 	padding: 1.5rem;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.nav-links a:hover {
+	color: #ff9633;
 }
 
 .interactions {
@@ -54,24 +62,64 @@ nav {
 }
 
 .signup-link {
-	border: #087f8c solid 2px;
+	border: #ff9633 solid 2px;
 	border-radius: 10px;
 }
 
 .signup-link:hover {
-	background: #087f8c;
+	background: #ff9633;
 	color: #fff;
 }
 
 .signin-link {
-	background: #087f8c;
+	background: #ff9633;
 	border: #fff solid 2px;
 	border-radius: 10px;
 	color: #fff;
 }
 
 .main-cta {
-	height: 80vh;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main-cta h1 {
+	color: #fff;
+	font-size: 5rem;
+	font-family: 'Assistant', sans-serif;
+}
+
+.main-cta p {
+	color: #fff;
+	font-size: 2.5rem;
+}
+
+.main-cta a {
+	color: #fff;
+}
+
+.cta-btn {
+	border: #fff solid 2px;
+	padding: 1.5rem;
+	border-radius: 10px;
+	font-size: 2.5rem;
+	margin-top: 5vh;
+}
+
+.cta-btn:hover {
+	background: #ff9633;
+}
+.hero-background {
+	background: url(/img/katie-smith-uQs1802D0CQ-unsplash.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.darken {
+	background: #18192557;
 }
 
 .nav-links-footer {
@@ -86,10 +134,15 @@ nav {
 	padding: 1rem;
 }
 
+.nav-links-footer a {
+	color: #fff;
+	font-size: 1.5rem;
+}
+
 footer {
 	display: flex;
 	flex-direction: column;
-	background-color: #087f8cd7;
+	background-color: #ff9633;
 }
 .copy-div {
 	display: flex;
@@ -97,4 +150,9 @@ footer {
 	align-items: center;
 	width: 100%;
 	margin-bottom: 2vh;
+}
+
+.copy-div p {
+	color: #fff;
+	font-size: 1.2rem;
 }
