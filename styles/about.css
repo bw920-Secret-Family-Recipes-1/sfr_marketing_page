@@ -122,6 +122,20 @@ nav {
 	margin: 5vh 0 5vh 0;
 }
 
+.team-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3vh;
+	background: #087f8c;
+}
+
+.team-title h2 {
+	font-size: 4rem;
+	font-family: 'Assistant', sans-serif;
+	color: #ffffff;
+}
+
 .team-container img {
 	height: 200px;
 	width: auto;
@@ -130,13 +144,17 @@ nav {
 }
 
 .team-container h3 {
-	font-size: 2.5rem;
+	font-size: 2.8rem;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 }
 
 .team-container p {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
+}
+
+.team-container span {
+	margin-left: 1.2rem;
 }
 
 /* footer */

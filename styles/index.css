@@ -131,6 +131,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* background: #b85156; */
 }
 
 .feature {
@@ -157,12 +158,14 @@ nav {
 	margin-top: 5vh;
 	font-size: 3rem;
 	font-family: 'Assistant', sans-serif;
+	/* color: #fff; */
 }
 
 .feature p {
 	margin-top: 2vh;
 	font-size: 2rem;
 	text-align: center;
+	/* color: #fff; */
 }
 
 /* footer */
