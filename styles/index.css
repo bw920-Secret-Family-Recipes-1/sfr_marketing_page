@@ -25,7 +25,6 @@ nav {
 /* header area */
 .logo-container {
 	margin: 3vh 0 3vh 2vw;
-	width: 20%;
 }
 
 .logo-container h2 {
@@ -38,7 +37,7 @@ nav {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	width: 60%;
+	width: 70%;
 	margin: 3vh 0 3vh 0;
 }
 
@@ -48,6 +47,7 @@ nav {
 	padding: 1.5rem;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
+	display: flex;
 }
 
 .nav-links a:hover {
