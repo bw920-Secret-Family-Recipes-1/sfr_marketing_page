@@ -46,7 +46,7 @@ nav {
 .interactions a {
 	font-size: 2rem;
 	padding: 1.5rem;
-	color: #fff;
+	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -61,111 +61,19 @@ nav {
 	margin-left: auto;
 }
 
-.signup-link {
-	border: #ff9633 solid 2px;
-	border-radius: 10px;
-	margin-right: 2rem;
-}
-
-.signup-link:hover {
-	background: #ff9633;
-	color: #fff;
-}
-
+.signup-link,
 .signin-link {
-	background: #ff9633;
 	border: #fff solid 2px;
 	border-radius: 10px;
-	color: #fff;
 	margin-right: 2rem;
 }
 
-/* hero area */
-.main-cta {
-	height: 50vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-.main-cta h1 {
-	color: #fff;
-	font-size: 6.5rem;
-	font-family: 'Assistant', sans-serif;
-}
-
-.main-cta p {
-	color: #fff;
-	font-size: 2.5rem;
-}
-
-.main-cta a {
-	color: #fff;
-}
-
-.cta-btn {
-	border: #fff solid 2px;
-	padding: 1.5rem;
-	border-radius: 10px;
-	font-size: 2.5rem;
-	margin-top: 5vh;
-}
-
-.cta-btn:hover {
+.signup-link:hover,
+.signin-link:hover {
 	background: #ff9633;
-}
-.hero-background {
-	background: url(/img/katie-smith-uQs1802D0CQ-unsplash.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+	color: #fff;
 }
 
-.darken {
-	background: #18192557;
-}
-
-/* Features Area */
-
-.features {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.feature {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 33%;
-	margin: 12rem;
-}
-
-.img-container {
-	width: auto;
-	height: 400px;
-	box-shadow: 5px 10px 8px #18192583;
-}
-
-.feature img {
-	width: auto;
-	height: 400px;
-	overflow: auto;
-}
-
-.feature h2 {
-	margin-top: 5vh;
-	font-size: 3rem;
-	font-family: 'Assistant', sans-serif;
-}
-
-.feature p {
-	margin-top: 2vh;
-	font-size: 2rem;
-	text-align: center;
-}
-
-/* footer */
 .nav-links-footer {
 	display: flex;
 	justify-content: center;
@@ -174,6 +82,64 @@ nav {
 	width: 100%;
 }
 
+.hero-background {
+	background: url(/img/pexels-karolina-grabowska-4199098.jpg);
+	background-position: center;
+}
+.darken {
+	background: #1819258e;
+}
+
+/* Mission Statement Area */
+.mission-statement {
+	height: 45vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.mission-statement h1 {
+	font-size: 6.5rem;
+	font-family: 'Assistant', sans-serif;
+	color: #ffffff;
+}
+
+.mission-statement p {
+	font-size: 2.5rem;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	margin-top: 2vh;
+}
+
+/* Team Area */
+
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	text-align: center;
+	margin: 5vh 0 5vh 0;
+}
+
+.team-container img {
+	height: 200px;
+	width: auto;
+	border-radius: 50%;
+	margin-bottom: 1vh;
+}
+
+.team-container h3 {
+	font-size: 2.5rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+}
+
+.team-container p {
+	font-size: 1.5rem;
+}
+
+/* footer */
 .nav-links-footer li {
 	padding: 1rem;
 }
