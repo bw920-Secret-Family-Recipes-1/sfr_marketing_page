@@ -25,6 +25,7 @@ nav {
 /* header area */
 .logo-container {
 	margin: 3vh 0 3vh 2vw;
+	display: flex;
 }
 
 .logo-container h2 {
@@ -202,4 +203,85 @@ footer {
 .copy-div p {
 	color: #fff;
 	font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+	
+	.features {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		
+	}
+
+	.feature{
+		text-align: center;
+		width: 25%;
+		margin-top: 5%;
+		
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	nav {
+		flex-direction: column;
+	}
+	.logo-container {
+		width: 100%;
+		justify-content: center;
+		margin: 0;
+	}
+
+	.logo-container h2{
+		margin: 2vh 0 2vh 0;
+		font-size: 4rem;
+	}
+
+	.nav-links {
+		width: 100%;
+		justify-content: center;
+		flex-direction: column;
+		margin: 1vh 0;
+	}
+
+
+
+	.interactions {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.interactions a {
+		margin: 2rem;
+		
+	}
+
+	.main-cta {
+		width: 100%;
+		height: 40vh;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+
+	.main-cta h1 {
+		width: 90%;
+		font-size: 3.5rem;
+		
+	}
+
+	.features {
+		flex-direction: column;
+	}
+
+	.feature {
+		margin: 2vh;
+	}
+
+}
+
+@media only screen and (max-width: 500px){
+	.feature {
+		width: 90%;
+	}
 }
