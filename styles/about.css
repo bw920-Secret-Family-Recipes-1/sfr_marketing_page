@@ -25,6 +25,7 @@ nav {
 /* header area */
 .logo-container {
 	margin: 3vh 0 3vh 2vw;
+	display: flex;
 }
 
 .logo-container h2 {
@@ -157,6 +158,10 @@ nav {
 	margin-left: 1.2rem;
 }
 
+.team-container i {
+	margin-top: 1rem;
+}
+
 /* footer */
 .nav-links-footer li {
 	padding: 1rem;
@@ -183,4 +188,48 @@ footer {
 .copy-div p {
 	color: #fff;
 	font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 800px) {
+	nav {
+		flex-direction: column;
+	}
+	.logo-container {
+		width: 100%;
+		justify-content: center;
+		margin: 0;
+	}
+
+	.logo-container h2{
+		margin: 2vh 0 2vh 0;
+		font-size: 4rem;
+	}
+
+	.nav-links {
+		width: 100%;
+		justify-content: center;
+		flex-direction: column;
+		margin: 1vh 0;
+	}
+
+
+
+	.interactions {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.interactions a {
+		margin: 2rem;
+		
+	}
+
+	.mission-statement {
+		height: 35vh;
+		text-align: center;
+	}
+
+	.team-container{
+		margin: 2vh;
+	}
 }
