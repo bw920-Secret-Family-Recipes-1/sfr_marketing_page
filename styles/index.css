@@ -26,6 +26,7 @@ nav {
 .logo-container {
 	margin: 3vh 0 3vh 2vw;
 	display: flex;
+	flex-wrap: nowrap;
 }
 
 .logo-container h2 {
@@ -88,12 +89,14 @@ nav {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	border-bottom: #B85156 solid 10px;
 }
 
 .main-cta h1 {
 	color: #fff;
 	font-size: 6.5rem;
 	font-family: 'Assistant', sans-serif;
+	text-align: center;
 }
 
 .main-cta p {
@@ -132,7 +135,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* background: #b85156; */
+	background: rgb(248, 233, 214);
 }
 
 .feature {
@@ -141,18 +144,21 @@ nav {
 	align-items: center;
 	width: 33%;
 	margin: 12rem;
+	
 }
 
 .img-container {
 	width: auto;
 	height: 400px;
 	box-shadow: 5px 10px 8px #18192583;
+	
 }
 
 .feature img {
 	width: auto;
 	height: 400px;
 	overflow: auto;
+	border-bottom: #B85156 solid 5px;
 }
 
 .feature h2 {
@@ -190,7 +196,7 @@ nav {
 footer {
 	display: flex;
 	flex-direction: column;
-	background-color: #ff9633;
+	background-color: #B85156;
 }
 .copy-div {
 	display: flex;
